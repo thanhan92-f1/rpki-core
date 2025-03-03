@@ -1,10 +1,10 @@
-RPKI - Core
+RPKI - Core APNIC & RIPE NCC
 ===========
 
 License
 -------
 
-Copyright (c) 2008-2023 RIPE NCC
+Copyright (c) 2008-2023 RIPE NCC & APNIC
 All rights reserved.
 
 This software, including all its separate source codes, is licensed under the
@@ -14,8 +14,8 @@ https://github.com/RIPE-NCC/rpki-core/blob/main/LICENSE.txt.
 
 # Overview
 
-This project is the core certification authority (CA) for the RIPE NCC RPKI infrastructure. It maintains and runs all
-hosted member CAs as well as the RIPE NCC "production CA" (containing only the resources assigned to RIPE) and the
+This project is the core certification authority (CA) for the RIPE NCC & APNIC RPKI infrastructure. It maintains and runs all
+hosted member CAs as well as the RIPE NCC & APNIC "production CA" (containing only the resources assigned to RIPE & APNIC) and the
 "All Resources CA" (the parent of the production CA with all Numbered Resources).
 
 Non-hosted CAs also access this system to retrieve or revoke their resource certificates through the up-down protocol.
